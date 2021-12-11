@@ -25,15 +25,14 @@ html{
     align-items: center;
     
 }
-#navbar ul li{
-    transition: 0.5s;
 
-    
-}
 #navbar ul li:hover{
     background: #eb710e;
     border-radius: 15px;
     margin: 0 0.75rem;
+}
+#navbar ul li{
+    transition: 0.5s;    
 }
 #navbar .sub-menu-1, #navbar .sub-menu-2{
     display: none;
@@ -80,3 +79,15 @@ html{
     color: #fff;
     background: rgba(236, 69, 69, 0.527);
 }
+/* Home Section*/
+#home{
+    background-image: url(../images/home-background.jpg);
+    background-size: cover;
+   
+}
+/* Introduction Section */
+#introduction{
+    background-image: url(../images/introduction-background.jpg);
+    background-size: cover;
+}
+
