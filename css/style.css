@@ -1,0 +1,9 @@
+/*İletisim.html */
+#iletisim{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:#f0e8d8;
+}
+
