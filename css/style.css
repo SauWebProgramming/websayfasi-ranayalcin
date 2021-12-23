@@ -7,3 +7,24 @@
     background:#f0e8d8;
 }
 
+/*hakkimizda.html */
+#hakkimizda{
+    padding: 1rem;
+    background: #f0e8d8;
+    
+}
+
+#hakkimizda .baslik{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0.75rem;
+    margin: 0.75rem 0.75rem;
+    
+    
+}
+#hakkimizda .paragraf{   
+   font-size: 1rem;
+   line-height:2.5; 
+   padding: 1rem;
+}

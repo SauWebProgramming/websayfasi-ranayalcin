@@ -7,7 +7,7 @@
 #navbar{
     background-color: #f88c10e1;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 0 0.75rem;
     height: 80px;
@@ -104,6 +104,12 @@
     border-radius: 10px;
     transition: 0.3s;
 }
+.bg-color{
+    background:  #f0e8d8;
+}
+.text-indent{
+  text-indent: 2rem;
+}
 .text-center{
     text-align: center;
 }
@@ -119,6 +125,10 @@ color: white;
 }
 .text-color-black{
     color: black;
+}
+/*font-size*/
+.breadcrumbs-font-size{
+    font-size: 1.25rem;
 }
 .heading-medium{
     font-size: 1.5rem;
