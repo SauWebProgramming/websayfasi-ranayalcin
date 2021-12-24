@@ -14,17 +14,32 @@
     
 }
 
-#hakkimizda .baslik{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0 0.75rem;
-    margin: 0.75rem 0.75rem;
-    
-    
-}
 #hakkimizda .paragraf{   
    font-size: 1rem;
    line-height:2.5; 
    padding: 1rem;
 }
+/*araclarimiz.html */
+#araclar{
+    min-height: 100vh;
+    padding: 1rem;
+}
+#araclar .images{
+    position:absolute;
+    width: 90%;
+    display: grid;
+    top: 20%;
+    left: 5%;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit,300px);
+    gap: 10px;
+}
+.images a{
+    color: black;
+}
+.images img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
